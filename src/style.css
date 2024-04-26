@@ -1,0 +1,94 @@
+html {
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #5c4738;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho{
+display: flex;
+justify-content:space-around;
+align-items: center;
+background-color:#eaaa00;
+padding: 30px 30px;
+}
+
+.cabecalho .container-logo {
+    background-color:#fff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #5c4738;
+    align-content: center;
+    align-items: center;
+}
+
+.cabecalho .container-logo .img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.home {
+    background-color:#5c4738;
+    display: flex;
+    min-height: calc(100vh - 210px);
+    width: auto;
+    gap: 50px;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.home .login .form-login {
+    display: flex;
+    flex-direction: column;
+    background-color: #8bae5b;
+    padding: 30px;
+    gap: 10px;   
+    border-radius: 20px;
+    height: 280px;
+    width: 300px;
+}
+
+.home .login .form-login .campoUsuario input {
+   width: 100%;
+}
+
+.home .login .form-login .campoSenha input {
+    width: 100%;
+    
+}
+
+
+.home .login .form-login .botaoEntrar {
+    background-color: #5c9033;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+   
+}
+
+.home .login .form-login .botaoEsqueciSenha {
+    text-align: center;
+    border-radius: 20px;
+   
+}
+
+.home .login .form-login .botaoCadastrar {
+    background-color: #eaaa00;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+   
+}
+
+
+
+ 
+

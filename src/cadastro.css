@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eaaa00;
+    color: white;
+}
+
+.Formulario {
+    background-color: #8bae5b;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    line-height: 40px;
+    margin-top: 100px;
+}

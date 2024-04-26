@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/cadastro.css">
+    <title>Cadastro</title>
+
+</head>
+
+<body>
+    <section class="Cadastro">
+
+        <!--Formulário de Cadastro-->
+        <form id="form" class="Formulario" method="POST" action="teste.jsp">
+            <h1>Cadastro</h1>
+
+            <div class="form-content">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome"><br>
+            </div>
+
+            <div class="form-content">
+                <label for="cpf">CPF</label>
+                <input type="text" name="CPF" id="cpf">
+                <br>
+            </div>
+
+            <div class="form-content">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" autocomplete="on">
+                <br>
+            </div>
+
+            <div class="form-content">
+                Gênero
+                <input id="generoMasculino" type="radio" name="genero" value="masculino" autocomplete="off">
+                <label for="generoMasculino">Masculino</label>
+            
+                <input id="generoFeminino" type="radio" name="genero" value="feminino" autocomplete="off">
+                <label for="generoFeminino">Feminino</label>
+                <br>
+            </div>
+
+            <div class="form-content">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Defina uma senha"><br>
+            </div>
+
+            <div class="form-content">
+                <label for="confirmacaoSenha">Confirmação da Senha</label>
+                <input type="password" name="Confirmação da Senha" id="confirmacaoSenha"
+                    placeholder="Repita a senha"><br>
+            </div>
+
+            <div class="form-content">
+                <label for="data-nascimento"> Data de Nascimento</label>
+                <input type="datetime-local" name="data_nascimento" id="data-nascimento">
+            </div>
+
+            <div class="form-content">
+                <label for="data-cadastro"> Data do Cadastro</label>
+                <input type="datetime-local" name="data-cadastro" id="data-cadastro">
+            </div>
+
+            <button class="botao-cadastrar" type="submit">Cadastrar</button>
+
+            </div>
+    </section>
+    <script src="./src/script.js"></script>
+</body>
+
+</html>
