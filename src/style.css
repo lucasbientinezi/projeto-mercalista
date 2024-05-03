@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 .cabecalho{
 display: flex;
 justify-content:space-around;
@@ -54,6 +55,12 @@ padding: 30px 30px;
     height: 280px;
     width: 300px;
 }
+
+input {
+    border-radius: 9px;
+    height: 20px;
+}
+
 
 .home .login .form-login .campoUsuario input {
    width: 100%;

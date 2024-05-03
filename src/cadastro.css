@@ -6,6 +6,12 @@ body {
     color: white;
 }
 
+input {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 9px;
+    text-align: center;
+}
+
 .Formulario {
     background-color: #8bae5b;
     border-radius: 10px;
